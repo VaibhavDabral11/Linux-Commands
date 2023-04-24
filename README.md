@@ -60,10 +60,12 @@ $ rmdir my_foders
 ```
 [Indetails](https://www.hostinger.in/tutorials/how-to-remove-files-and-folders-using-linux-command-line/#:~:text=Folders%20in%20Linux%3F-,How%20to%20Remove%20a%20Directory%20in%20Linux,to%20remove%20non%2Dempty%20directories.)
 
-8. For changing the name of any file folling use this comand .
+8. For rename and also move the files from one folder to anther folder files use this following  command .
 
 ```@ruby
-$ mv file_name new_file_name
+$ mv file_name new_file_name [rename]
+
+$ mv file_name folder_name [ move file from one folder to another folder]
 ```
 9. Display the content of file in terminal by using this  folling command .
 
@@ -76,3 +78,4 @@ $ cat file_name
 ```@ruby
 $ cp file_name
 ```
+
