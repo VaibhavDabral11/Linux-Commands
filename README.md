@@ -57,26 +57,32 @@ $ rm -i mydir/*
 - To the folders named myfolders, type the following:
 
 ```@ruby
-$ rmdir my_foders
+$ rmdir myfolders
 ```
 [Indetails](https://www.hostinger.in/tutorials/how-to-remove-files-and-folders-using-linux-command-line/#:~:text=Folders%20in%20Linux%3F-,How%20to%20Remove%20a%20Directory%20in%20Linux,to%20remove%20non%2Dempty%20directories.)
 
 8. For rename and also move the files from one folder to anther folder files use this following  command .
 
 ```@ruby
-$ mv file_name new_file_name [rename]
+$ mv filename newFilenName [rename]
 
-$ mv file_name folder_name [ move file from one folder to another folder]
+$ mv filename foldername [ move file from one folder to another folder]
 ```
 9. Display the content of file in terminal by using this  folling command .
 
 ```@ruby
-$ cat file_name 
+$ cat filename 
 ```
 
 10. Copy any file using this commands .
 
 ```@ruby
-$ cp file_name
+$ cp filename
+```
+
+11. print the file tree in terminal using this commads . 
+
+```@ruby
+$ tree filename
 ```
 
