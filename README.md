@@ -47,6 +47,7 @@ write :w for save and press Enter .
 
 ```@ruby
 $ rm myfile
+$  rm -rf .git*
 ```
 -To delete all the files in the mydir directory, one by one, type the following:
 
