@@ -85,4 +85,4 @@ $ cp filename
 ```@ruby
 $ tree filename
 ```
-
+12. [ How to check system specs in Linux OS Terminal](https://github.com/VaibhavDabral11/linux-specs-check/blob/main/README.md) 
