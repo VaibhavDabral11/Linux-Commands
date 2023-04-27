@@ -85,4 +85,8 @@ $ cp filename
 ```@ruby
 $ tree filename
 ```
-12. [ How to check system specs in Linux OS Terminal](https://github.com/VaibhavDabral11/linux-specs-check/blob/main/README.md) 
+12. [ How to check system specs in Linux Commands ](https://github.com/VaibhavDabral11/linux-specs-check/blob/main/README.md) 
+
+13. [How to Check the storage , ram and gpu usage of any files and folder Using Linus Commands ](https://github.com/VaibhavDabral11/Linus-Folder-Storage/blob/main/README.md) 
+
+14. 
