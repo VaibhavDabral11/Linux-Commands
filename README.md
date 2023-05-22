@@ -94,14 +94,16 @@ write :w for save and press Enter .
 
 15. copy files and folders :
 ```@ruby
-files :   cp floder2/f3.txt  folder/   [condition: both folder present in same folder]   cp  path1 path2
+files :   cp floder2/f3.txt  folder/   [condition: both folder present in same folder]   
+          cp  path1 path2
 ```
 ```@ruby
 folders :    cp -r folder/f1  folder1/    [condition: both folder present in same folder]
 ```
 16. move files and folders :
 ```@ruby
-files :   mv floder2/f3.txt  folder/   [condition: both folder present in same folder    mv  path1 path2
+files :   mv floder2/f3.txt  folder/   [condition: both folder present in same folder    
+          mv  path1 path2
 ```
 ```@ruby
 folders :    mv -r folder/f1  folder1/    [condition: both folder present in same folder]
