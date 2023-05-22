@@ -29,7 +29,7 @@
 ```@ruby
  ls -r
 ```
-6. This commands is use for shell scripting . [vim]
+6. This commands is use for basic shell scripting. [vim]
 
 ```@ruby
  vim file_name 
@@ -91,3 +91,18 @@ write :w for save and press Enter .
 13. [How to check the storage , ram and gpu usage of any files and folder Using Linus Commands . ](https://github.com/VaibhavDabral11/Linus-Folder-Storage/blob/main/README.md) 
 
 14. [how to active and close the virtual environments in linux .](https://github.com/VaibhavDabral11/linux1/blob/main/README.md)
+
+15. copy files and folders :
+```@ruby
+files :   cp floder2/f3.txt  folder/   [condition: both folder present in same folder]   cp  path1 path2
+```
+```@ruby
+folders :    cp -r folder/f1  folder1/    [condition: both folder present in same folder]
+```
+16. move files and folders :
+```@ruby
+files :   mv floder2/f3.txt  folder/   [condition: both folder present in same folder    mv  path1 path2
+```
+```@ruby
+folders :    mv -r folder/f1  folder1/    [condition: both folder present in same folder]
+```
