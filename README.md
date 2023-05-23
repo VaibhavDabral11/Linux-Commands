@@ -158,3 +158,5 @@ fi
 
 for executing this file ```chmod +x scriptname.sh ``` for enable executing rights 
 then execute using this commands ``` ./scriptname.sh ```
+
+19. For checking dir rights use this ``` ll ``` commands . 
