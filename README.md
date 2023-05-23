@@ -108,3 +108,53 @@ files :   mv floder2/f3.txt  folder/   [condition: both folder present in same f
 ```@ruby
 folders :    mv -r folder/f1  folder1/    [condition: both folder present in same folder]
 ```
+
+17. Shutdown in linux :
+
+```@ruby
+sudo shutdown -h now
+```
+   set time for shutdown 
+
+```@ruby
+sudo shutdown -h 22:30
+```
+18.  if-else and else-if statement in linux :
+
+```@ruby
+#!/bin/bash
+
+echo "Enter a number: "
+read num 
+
+if [ $num -gt 0 ]
+then   
+   echo "number is Positive "
+
+elif [ $num -lt 0 ]
+then 
+   echo "number is negative "
+
+else 
+   echo "number is zero"
+
+fi   
+```
+-gt : greater than
+-lt : less than
+```@ruby
+#!/bin/bash
+
+# Check if a file exists
+if [ -f "/path/to/file.txt" ]
+then
+    echo "File exists"
+else
+    echo "File does not exist"
+fi
+
+```
+-f : find
+
+for executing this file ```chmod +x scriptname.sh ``` for enable executing rights 
+then execute using this commands ``` ./scriptname.sh ```
