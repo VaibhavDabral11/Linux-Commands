@@ -159,4 +159,10 @@ fi
 for executing this file ```chmod +x scriptname.sh ``` for enable executing rights 
 then execute using this commands ``` ./scriptname.sh ```
 
-19. For checking dir rights use this ``` ll ``` commands . 
+19. For checking dir rights use this ``` ll ``` commands .
+ 
+20. For finding any file and a folder use these commands given bellow :
+```
+find . -name "example.txt" 
+find . -name "folderName"
+```
