@@ -67,7 +67,7 @@ write :w for save and press Enter .
 ```@ruby
  mv filename newFilenName [rename]
 
- mv filename foldername [ move file from one folder to another folder]
+ mv foldername foldername [ move file from one folder to another folder]
 ```
 9. Display the content of file in terminal by using this  folling command .
 
