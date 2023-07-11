@@ -109,7 +109,7 @@ files :   mv floder2/f3.txt  folder/   [condition: both folder present in same f
 folders :    mv -r folder/f1  folder1/    [condition: both folder present in same folder]
 ```
 
-17. Shutdown in linux :
+17. Shutdown in linux :-
 
 ```@ruby
 sudo shutdown -h now
@@ -119,7 +119,7 @@ sudo shutdown -h now
 ```@ruby
 sudo shutdown -h 22:30
 ```
-18.  if-else and else-if statement in linux :
+18.  if-else and else-if statement in linux :-
 
 ```@ruby
 #!/bin/bash
@@ -159,14 +159,14 @@ fips aux | grep code
 for executing this file ```chmod +x scriptname.sh ``` for enable executing rights 
 then execute using this commands ``` ./scriptname.sh ```
 
-19. For checking dir rights use this ``` ll ``` commands 
+19. For checking dir rights use this ``` ll ``` commands :-
  
-21. For finding any file and a folder use these commands given bellow :
+21. For finding any file and a folder use these commands given bellow :-
 ```
 find . -name "example.txt" 
 find . -name "folderName"
 ```
-22. Kill process in Linux
+22. Kill process in Linux.
     1. Firstly list process uaing given command bellow :
        ```@ruby
         ps aux | grep code
@@ -175,7 +175,201 @@ find . -name "folderName"
        ```@ruby
         pkill proces_id
        ```
+23. This is  interactive process viewer and system monitor build for linux use given bellow command :
+```@ruby
+htop    
+```
+24. This given bellow command is use to  change the permissions of a file or directory.
+```@ruby
+# The first digit represents the owner of the file/directory
+# The second digit represents the group that the file/directory belongs to
+# The third digit represents all other users
+# 0 (no permission)
+# 1 (execute only)
+# 2 (write only)
+# 3 (write and execute)
+# 4 (read only)
+# 5 (read and execute)
+# 6 (read and write)
+# 7 (read, write, and execute)
 
-       
+chmod 700 file.txt
+
+```
+25. change the ownership of the die using this commands given bellow.
+```@ruby
+chown new_owner example.txt
+```
+26. This given bellow commands is use to create or extract compressed archive files.
+```@ruby
+'tar'
+# x: extract files from an archive
+# t: list the contents of an archive
+# r: append files to an existing archive
+# z: use gzip compression
+# j: use bzip2 compression
+# cf: create file
+#xf: extract file
+tar cf archive.tar file1 file2 file3
+```
+27. For compress files in linux sue this given bellow command.
+```@ruby
+gzip file.txt
+``` 
+29. For  decompress compressed files in linux sue this given bellow command.
+```@ruby
+gunzip file.txt.gz
+```
+30. connect to a remote server securely using this command.
+```@ruby
+ssh username@server_address
+```
+31. securely copy files between systems in linux.
+```@ruby
+scp filename.txt machine_ip folder_where_this_file_is_located
+like this : scp myfile.txt user@remotehost:/home/user/
+```
+32. check ping of any site by this command
+```@ruby
+ ping www.google.com
+```
+33. display or configure network interfaces using this command
+```@ruby
+netstat
+```
+34. view or configure network routing tables using this command
+```@ruby
+route [options] [add/delete/show]
+```
+35. display system resource usage and processes using this command
+```@ruby
+top
+```
+36. control system services and settings using this command
+```@ruby
+# Start the nginx service
+systemctl start nginx control system services
+
+# Check the status of the nginx service
+systemctl status nginx
+
+# Stop the nginx service
+systemctl stop nginx
+
+```
+37. control system services
+```@ruby
+service apache2 start
+```
+38.  add a new user to the system
+```@ruby
+useradd harry
+```su john
+39.  change the password for a user
+```@ruby
+passwd harry
+```
+40.  delete a user from the system
+```@ruby
+ userdel harry
+```
+41. switch user to become another user
+```@ruby
+su john
+ ```
+42. execute a command as another user or with elevated privileges
+```@ruby
+sudo
+```
+43. display system uptime and load average
+```@ruby
+uptime
+```
+44. display disk space usage
+```@ruby
+df
+```
+45. display disk usage by file or directory
+```@ruby
+du
+```
+46. mount a file system
+```@ruby
+sudo mount /dev/sdb1 /mnt/usb
+```
+47. unmount a file system
+```@ruby
+sudo umount /mnt/usb
+```
+48. display or set the system date and time
+```@ruby
+date
+ ```
+50. display the current user name
+```@ruby
+whoami
+```
+51. displays all the information about user
+```@ruby
+finger filename
+```
+52. display system information
+```@ruby
+uname
+uname -a
+```
+53. redirect output to both a file and the console
+```@ruby
+$ ls | tee file.txt
+```
+54. locate any file on the system
+```@ruby
+locate file.txt
+```
+55. sort lines of text in a file or input
+```@ruby
+cat file.txt
+banana
+orange
+apple
+sort file.txt
+apple
+banana
+orange
+```
+56. remove duplicate lines from a file or input
+```@ruby
+cat file.txt
+apple
+orange
+banana
+apple
+banana
+uniq file.txt
+apple
+orange
+banana
+```
+57. display the first/last few lines of a file or input
+```@ruby
+#display first 10 lines
+head file.txt
+
+#display last 10 lines
+tail file.txt
+```
+58 print the last two elements 
+```@ruby 
+tail -2f filename.txt
+```
+59. find process using this command
+```@ruby
+ps -ef | grep sbin
+```     
+60. check history using this command
+```@ruby
+history
+```
+
 
     
