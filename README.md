@@ -168,9 +168,9 @@ find . -name "folderName"
 ```
 22. Kill process in Linux
     1. Firstly list process uaing given command bellow :
-    ```@ruby
+       ```@ruby
         ps aux | grep code
-    ```
+       ```
     2. Then kill the process using this command given bellow :
        ```@ruby
         pkill proces_id
