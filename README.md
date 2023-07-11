@@ -151,18 +151,31 @@ then
     echo "File exists"
 else
     echo "File does not exist"
-fi
 
+fips aux | grep code
 ```
 -f : find
 
 for executing this file ```chmod +x scriptname.sh ``` for enable executing rights 
 then execute using this commands ``` ./scriptname.sh ```
 
-19. For checking dir rights use this ``` ll ``` commands .
+19. For checking dir rights use this ``` ll ``` commands 
  
-20. For finding any file and a folder use these commands given bellow :
+21. For finding any file and a folder use these commands given bellow :
 ```
 find . -name "example.txt" 
 find . -name "folderName"
 ```
+22. Kill process in Linux
+    1. Firstly list process uaing given command bellow :
+    ```@ruby
+        ps aux | grep code
+    ```
+    2. Then kill the process using this command given bellow :
+       ```@ruby
+        pkill proces_id
+       ```
+
+       
+
+    
