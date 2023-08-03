@@ -370,6 +370,9 @@ ps -ef | grep sbin
 ```@ruby
 history
 ```
-
+61. Text Editer in linux
+```@ruby
+nano filename.txt
+```
 
     
