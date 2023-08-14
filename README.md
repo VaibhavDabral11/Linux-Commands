@@ -78,7 +78,7 @@ write :w for save and press Enter .
 10. Copy any file using this commands .
 
 ```@ruby
- cp filename
+ cp filename/foldername
 ```
 
 11. print the file tree in terminal using this commads . 
@@ -86,6 +86,17 @@ write :w for save and press Enter .
 ```@ruby
  tree filename
 ```
+
+To list the directory structure in Linux while excluding the "node_modules" directory, you can use the "tree" command along with the "--exclude" option. The "tree" command is not installed by default on some systems, so you might need to install it first. Here's how you can list the directory structure excluding "filename":
+```@ruby
+tree --prune -I 'filename'
+```
+Let me explain the options used in this command:
+
+--prune: This option prevents the specified directory (in this case, "filename") from being displayed in the output.
+
+-I 'filename': This option tells tree to exclude directories matching the given pattern (in this case, "filename").
+
 12. [ How to check system specs in Linux Commands . ](https://github.com/VaibhavDabral11/linux-specs-check/blob/main/README.md) 
 
 13. [How to check the storage , ram and gpu usage of any files and folder Using Linus Commands . ](https://github.com/VaibhavDabral11/Linus-Folder-Storage/blob/main/README.md) 
