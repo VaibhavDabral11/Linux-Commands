@@ -385,5 +385,8 @@ history
 ```@ruby
 nano filename.txt
 ```
+62. /bin: This directory contains essential system binaries that are necessary for the system to function, even in situations where only minimal resources are available. These binaries are critical for the system's boot process and include commands like /bin/bash (the default shell), /bin/ls (list files), /bin/cp (copy files), and /bin/mv (move or rename files).
+
+![image](https://github.com/VaibhavDabral11/Linux-Commands/assets/116658648/76472f74-f85f-4561-82d4-5dbe1fd51ef2)
 
     
