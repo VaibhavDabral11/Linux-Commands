@@ -389,4 +389,9 @@ nano filename.txt
 
 ![image](https://github.com/VaibhavDabral11/Linux-Commands/assets/116658648/76472f74-f85f-4561-82d4-5dbe1fd51ef2)
 
+62. checking the details of your linux OS.
+```@ruby
+lsb_release -a
+```
+
     
